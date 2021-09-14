@@ -1,0 +1,453 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="100" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="141" max="-2" attributes="0"/>
+              <Component id="bexecutar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="142" max="32767" attributes="0"/>
+          </Group>
+          <Component id="jProgressBar1" alignment="1" pref="517" max="32767" attributes="1"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="nr_clientes" alignment="0" min="-2" pref="98" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="tam_fila" max="32767" attributes="1"/>
+                                  <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="dir_log" min="-2" pref="172" max="-2" attributes="0"/>
+                                  <Component id="jLabel18" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="bor_servos" max="32767" attributes="1"/>
+                                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="1">
+                                      <Component id="jLabel12" min="-2" pref="21" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="bor_cheg_lambda" pref="89" max="32767" attributes="1"/>
+                                  </Group>
+                                  <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace pref="65" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel13" min="-2" pref="20" max="-2" attributes="1"/>
+                                          <Component id="jLabel14" min="-2" pref="20" max="-2" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="bor_atend_desvpad" max="32767" attributes="1"/>
+                                          <Component id="bor_atend_media" alignment="0" min="-2" pref="132" max="-2" attributes="1"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="ele_servos" max="32767" attributes="1"/>
+                                          <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="1" attributes="1">
+                                              <Component id="jLabel15" min="-2" pref="21" max="-2" attributes="0"/>
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="ele_cheg_lambda" pref="89" max="32767" attributes="1"/>
+                                          </Group>
+                                          <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="1"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ele_cheg_prialta" min="-2" pref="40" max="-2" attributes="1"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel17" min="-2" pref="20" max="-2" attributes="1"/>
+                                          <Component id="jLabel16" alignment="1" min="-2" pref="20" max="-2" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="ele_atend_media" pref="131" max="32767" attributes="1"/>
+                                          <Component id="ele_atend_desvpad" alignment="0" pref="131" max="32767" attributes="1"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel11" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jSeparator6" alignment="0" pref="497" max="32767" attributes="1"/>
+                          <Component id="jSeparator4" alignment="0" pref="497" max="32767" attributes="1"/>
+                          <Component id="jSeparator5" alignment="1" pref="497" max="32767" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator3" pref="497" max="32767" attributes="1"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator5" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nr_clientes" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tam_fila" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dir_log" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator4" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="bor_servos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bor_cheg_lambda" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bor_atend_media" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bor_atend_desvpad" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jSeparator6" min="-2" pref="10" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel11" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ele_servos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ele_cheg_lambda" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ele_atend_media" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ele_atend_desvpad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ele_cheg_prialta" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Component id="jSeparator3" min="-2" pref="9" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <Component id="bexecutar" alignment="0" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="15" max="32767" attributes="0"/>
+              <Component id="jProgressBar1" min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="nr_clientes">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="300"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tam_fila">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="18"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bor_servos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bor_cheg_lambda">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0.02445"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bor_atend_media">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2.6704"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ele_servos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ele_cheg_lambda">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0.05105"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ele_atend_media">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3.0616"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="bexecutar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Executar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bexecutarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Redefinir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bor_atend_desvpad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0.78599"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ele_atend_desvpad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0.47552"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Par&#xe2;metros Gerais"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Par&#xe2;metros Borracharia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Par&#xe2;metros El&#xe9;trica"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero de clientes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tamanho m&#xe1;ximo da fila"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero de servos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xfa;mero de servos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Par&#xe2;metros de chegada"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Par&#xe2;metros de atendimento"/>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Default Cursor"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Par&#xe2;metros de chegada"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Par&#xe2;metros de atendimento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;\u03BB&quot;" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;\u00B5&quot;" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;\u03C3&quot;" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;\u03BB&quot;" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel16">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;\u00B5&quot;" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel17">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;\u03C3&quot;" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator6">
+    </Component>
+    <Component class="javax.swing.JProgressBar" name="jProgressBar1">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Log"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dir_log">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C:\temp\log.txt"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Prioridade alta"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ele_cheg_prialta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="40.26"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator5">
+    </Component>
+  </SubComponents>
+</Form>
